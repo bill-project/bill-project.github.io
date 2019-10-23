@@ -3701,6 +3701,10 @@ div[class*="position"] .details .area {
   color: #ffffff;
   display: inline-block; 
 }
+
+[type="checkbox"] {
+  vertical-align:middle;
+}
 #preloader {
   position: fixed;
   width: 100%;
