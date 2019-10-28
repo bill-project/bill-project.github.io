@@ -326,8 +326,8 @@
                         type="checkbox" name="euroHist" value="APEuro"></label>
                   </div>
                   <div class="col-lg-3">
-                    <label for="physOne" style="word-wrap: break-word;">Physics 1<input id="physOne"
-                        type="checkbox" name="physOne" value="APPhysicsOne"></label>
+                    <label for="physOne" style="word-wrap: break-word;">Physics 1<input id="physOne" type="checkbox"
+                        name="physOne" value="APPhysicsOne"></label>
                   </div>
                 </div>
                 <div class="latest-result-item-footer">
@@ -342,13 +342,13 @@
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="section-header text-center">
-                <h2 class="section-title">MBTI Type or Major of Choice</h2>
-                <p>Please enter your MBTI type or major of choice.</p>
+                <h2 class="section-title">Personality</h2>
+                <p>Please enter your MBTI type or take the small questionnaire.</p>
               </div>
             </div>
           </div>
           <div class="row mt-mb-15">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
               <div class="latest-result-item">
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
                   <h3 class="pb-2">MBTI Type</h3>
@@ -359,19 +359,127 @@
                 </div>
               </div>
             </div><!-- latest-result-item end -->
-            <div class="col-lg-6">
+            <h3 class="col-lg-12 text-center">or</h3>
+            <div class="col-lg-12">
               <div class="latest-result-item">
-                <div class="row latest-result-item-header d-flex flex-column align-items-center">
-                  <h3 class="pb-2">Major</h3>
-                  <div>Please select your major</div>
-                  <input style="width: 50%" list="major">
-                  <datalist id="major">
-                    <option value="Computer Science">
-                    <option value="Psychology">
-                    <option value="Business">
-                    <option value="Music">
-                    <option value="Civil Engineering">
-                  </datalist>
+                <h3 class="text-center pt-3 pb-2">Questionnaire</h3>
+                <div class="text-center">Please answer the following questions.</div>
+                <div class="wrap">
+                    <label class="statement">You like socializing in public.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You are more interested in dealing with numbers than words.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You are more interested in words than numbers.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">Creativity matters more than hard knowledge in your class.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You think a lot before you speak.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
                 </div>
                 <div class="latest-result-item-footer">
                 </div>
