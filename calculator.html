@@ -253,7 +253,7 @@
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
                   <h3 class="pb-2">GPA</h3>
                   <div>Enter your GPA</div>
-                  <input style="width: 50%" type="text" name="gpa">
+                  <input id="gpa_input" style="width: 50%" type="text" name="gpa">
                 </div>
                 <div class="latest-result-item-footer">
                 </div>
@@ -617,9 +617,12 @@
         </div>
         <div class="col-lg-7">
           <div class="content">
-            <a href="#0" class="cmn-btn">Calculate</a>
+            <a href="#0" class="cmn-btn" onclick="get_recommendation()">Calculate</a>
           </div>
         </div>
+      </div>
+      <div class="row justify-content-between">
+        <label id="result_text">Result</label>
       </div>
     </div>
   </section>
@@ -783,6 +786,8 @@
   <script src="assets/js/jquery.vmap.world.js"></script>
   <!-- main script js file -->
   <script src="assets/js/main.js"></script>
+  <!-- our customized js file -->
+  <script src="script.js"></script>
 </body>
 
 </html>
