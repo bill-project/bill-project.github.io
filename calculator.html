@@ -56,7 +56,8 @@
                 <li class="active"><a href="calculator.html">college calculator</a>
                 <li class="menu_has_children"><a href="#0">MBTI</a>
                   <ul class="sub-menu">
-                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI Test</a></li>
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
+                        Test</a></li>
                   </ul>
                 </li>
                 <li class="menu_has_children"><a href="../news/all.html">news</a>
@@ -218,47 +219,37 @@
           <div class="row justify-content-center">
             <div class="col-lg-8">
               <div class="section-header text-center">
-                <h2 class="section-title">Scores & GPA</h2>
-                <p>Please enter your GPA and the following applicable scores.</p>
+                <h2 class="section-title">Please enter the following information</h2>
               </div>
             </div>
           </div>
           <div class="row mt-mb-15">
             <div class="col-lg-4">
-              <div class="latest-result-item">
+              <div>
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
                   <h3 class="pb-2">GPA</h3>
-                  <div>Enter your GPA</div>
                   <input id="gpa_input" style="width: 50%" type="text" name="gpa">
                 </div>
-                <div class="latest-result-item-footer">
+              </div>
+            </div><!-- latest-result-item end -->
+            <div class="col-lg-4">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">SAT Score</h3>
+                  <input id="sat_input" style="width: 50%" type="text" name="satScore">
                 </div>
               </div>
             </div><!-- latest-result-item end -->
             <div class="col-lg-4">
-              <div class="latest-result-item">
+              <div>
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
-                  <h3 class="pb-2">SAT</h3>
-                  <div>Enter your SAT Score</div>
-                  <input id = "sat_input" style="width: 50%" type="text" name="satScore">
-                </div>
-                <div class="latest-result-item-footer">
-                </div>
-              </div>
-            </div><!-- latest-result-item end -->
-            <div class="col-lg-4">
-              <div class="latest-result-item">
-                <div class="row latest-result-item-header d-flex flex-column align-items-center">
-                  <h3 class="pb-2">ACT</h3>
-                  <div>Enter your ACT Score</div>
+                  <h3 class="pb-2">ACT Score</h3>
                   <input id="act_input" style="width: 50%" type="text" name="actScore">
-                </div>
-                <div class="latest-result-item-footer">
                 </div>
               </div>
             </div><!-- latest-result-item end -->
             <div class="col-lg-12">
-              <div class="latest-result-item">
+              <div>
                 <h3 class="text-center pt-3 pb-2">AP Scores</h3>
                 <div class="text-center">Select the AP tests that you've taken</div>
                 <div class="row latest-result-item-header text-center">
@@ -319,39 +310,97 @@
                         name="physC" value="APPhysicsC"></label>
                   </div>
                 </div>
-                <div class="latest-result-item-footer">
-                </div>
               </div>
             </div><!-- latest-result-item end -->
-          </div>
-        </div>
-      </section>
-      <section class="lottery-result-section section-padding section-bg">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-header text-center">
-                <h2 class="section-title">Personality</h2>
-                <p>Please enter your MBTI type or take the small questionnaire.</p>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">MBTI Type</h3>
+                  <input style="width: 50%" type="text" name="mbtiType">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">State of Residence</h3>
+                  <select name="state">
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Planned Loan</h3>
+                  <input id="loanAmount" style="width: 50%" type="text" name="loanAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 pt-5">
+              <div class="content text-center">
+                <a href="#0" class="cmn-btn" onclick="get_recommendation()">Calculate</a>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <!-- <section class="lottery-result-section section-padding section-bg">
+        <div class="container">
           <div class="row mt-mb-15">
             <div class="col-lg-12">
               <div class="latest-result-item">
-                <div class="row latest-result-item-header d-flex flex-column align-items-center">
-                  <h3 class="pb-2">MBTI Type</h3>
-                  <div>Please enter your MBTI Type</div>
-                  <input style="width: 50%" type="text" name="mbtiType">
-                </div>
-                <div class="latest-result-item-footer">
-                </div>
-              </div>
-            </div><!-- latest-result-item end -->
-            <h3 class="col-lg-12 text-center">or</h3>
-            <div class="col-lg-12">
-              <div class="latest-result-item">
-                <h3 class="text-center pt-3 pb-2">Questionnaire</h3>
+                <h3 class="text-center pt-3 pb-2">Optional Questionnaire</h3>
                 <div class="text-center">Please answer the following questions.</div>
                 <div class="wrap">
                     <label class="statement">You like socializing in public.</label>
@@ -473,230 +522,122 @@
                 <div class="latest-result-item-footer">
                 </div>
               </div>
-            </div><!-- latest-result-item end -->
+            </div>
 
           </div>
         </div>
-      </section>
-      <section class="lottery-result-section section-padding">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-8">
-              <div class="section-header text-center">
-                <h2 class="section-title">State of Residence</h2>
-                <p class="pb-2">Please enter your state of residence.</p>
-                <select name="state">
-                  <option value="AL">Alabama</option>
-                  <option value="AK">Alaska</option>
-                  <option value="AZ">Arizona</option>
-                  <option value="AR">Arkansas</option>
-                  <option value="CA">California</option>
-                  <option value="CO">Colorado</option>
-                  <option value="CT">Connecticut</option>
-                  <option value="DE">Delaware</option>
-                  <option value="FL">Florida</option>
-                  <option value="GA">Georgia</option>
-                  <option value="HI">Hawaii</option>
-                  <option value="ID">Idaho</option>
-                  <option value="IL">Illinois</option>
-                  <option value="IN">Indiana</option>
-                  <option value="IA">Iowa</option>
-                  <option value="KS">Kansas</option>
-                  <option value="KY">Kentucky</option>
-                  <option value="LA">Louisiana</option>
-                  <option value="ME">Maine</option>
-                  <option value="MD">Maryland</option>
-                  <option value="MA">Massachusetts</option>
-                  <option value="MI">Michigan</option>
-                  <option value="MN">Minnesota</option>
-                  <option value="MS">Mississippi</option>
-                  <option value="MO">Missouri</option>
-                  <option value="MT">Montana</option>
-                  <option value="NE">Nebraska</option>
-                  <option value="NV">Nevada</option>
-                  <option value="NH">New Hampshire</option>
-                  <option value="NJ">New Jersey</option>
-                  <option value="NM">New Mexico</option>
-                  <option value="NY">New York</option>
-                  <option value="NC">North Carolina</option>
-                  <option value="ND">North Dakota</option>
-                  <option value="OH">Ohio</option>
-                  <option value="OK">Oklahoma</option>
-                  <option value="OR">Oregon</option>
-                  <option value="PA">Pennsylvania</option>
-                  <option value="RI">Rhode Island</option>
-                  <option value="SC">South Carolina</option>
-                  <option value="SD">South Dakota</option>
-                  <option value="TN">Tennessee</option>
-                  <option value="TX">Texas</option>
-                  <option value="UT">Utah</option>
-                  <option value="VT">Vermont</option>
-                  <option value="VA">Virginia</option>
-                  <option value="WA">Washington</option>
-                  <option value="WV">West Virginia</option>
-                  <option value="WI">Wisconsin</option>
-                  <option value="WY">Wyoming</option>
-                </select>
-                <!-- <h2 class="section-title">Other Residence</h2>
-                <p class="pb-2">Please enter your residence (US territories).</p>
-                <select name="territories">
-                  <option value="AS">American Samoa</option>
-                  <option value="GU">Guam</option>
-                  <option value="MP">Northern Mariana Islands</option>
-                  <option value="PR">Puerto Rico</option>
-                  <option value="VI">Virgin Islands</option>
-                </select> -->
-              </div>
-            </div>
-          </div>
+      </section> -->
+    </form>
+    <!-- Form end -->
 
-        </div>
-  </div>
-  </section>
-  <!-- lottery-result-section end -->
-  <section class="lottery-result-section section-padding section-bg">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8">
-          <div class="section-header text-center">
-            <h2 class="section-title">Payment Plan</h2>
-            <p>Please enter your financial payment plan.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-mb-15">
-        <div class="col-lg-12">
-          <div class="latest-result-item">
-            <div class="row latest-result-item-header d-flex flex-column align-items-center">
-              <h3 class="pb-2">Planned Loan</h3>
-              <input id="loanAmount" style="width: 50%" type="text" name="loanAmount">
-            </div>
-            <div class="latest-result-item-footer">
-            </div>
-          </div>
-        </div><!-- latest-result-item end -->
-      </div>
-    </div>
-  </section>
-  </form>
-  <!-- Form end -->
-
-  <!-- question-section start -->
-  <section class="question-section section-padding section-bg">
-    <div class="container">
-      <div class="row justify-content-between">
-        <div class="col-lg-4">
-          <div class="thumb text-lg-right text-center">
-          </div>
-        </div>
-        <div class="col-lg-7">
-          <div class="content">
-            <a href="#0" class="cmn-btn" onclick="get_recommendation()">Calculate</a>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-between">
-        <label id="result_text">Result</label>
-      </div>
-    </div>
-  </section>
-  <!-- question-section end -->
-
-  <!-- footer-section start -->
-  <footer class="footer-section">
-    <div class="footer-top border-top border-bottom has_bg_image">
-        <div class="footer-top-first">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-6 col-md-5 col-sm-4 text-center text-sm-left">
-                  <a href="index.html" class="site-logo"><img src="assets/images/newlogo.png" alt="logo"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-      <div class="footer-top-second">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
-              <div class="footer-widget widget-about">
-                <h3 class="widget-title">About colleGPS</h3>
-                <ul class="footer-list-menu">
-                  <li><a href="calculator.html">College Calculator</a></li>
-                  <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">MBTI</a></li>
-                  <li><a href="news/all.html">News</a></li>
-                  <li><a href="contact.html">Contact us</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-              <div class="footer-widget widget-subscribe">
-                <h3 class="widget-title">email newsletters</h3>
-                <div class="subscribe-part">
-                  <p>Subscribe now and receive weekly newsletter for latest draw and offer news and much more!</p>
-                  <form class="subscribe-form">
-                    <input type="email" name="subs_email" id="subs_email" placeholder="Email address">
-                    <input type="submit" value="subscribe">
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="footer-bottom">
+    <!-- question-section start -->
+    <section class="question-section section-padding section-bg">
       <div class="container">
-        <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6 col-sm-7">
-            <div class="copy-right-text">
-              <p>© 2019 <a href="#">colleGPS</a> - All Rights Reserved.</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-sm-5">
-            <ul class="footer-social-links d-flex justify-content-end">
-              <li><a href="#0"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#0"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#0"><i class="fa fa-instagram"></i></a></li>
-            </ul>
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h3>Result</h3>
+            <h1 id="result_text"></h1>
           </div>
         </div>
       </div>
+    </section>
+    <!-- question-section end -->
+
+    <!-- footer-section start -->
+    <footer class="footer-section">
+      <div class="footer-top border-top border-bottom has_bg_image">
+        <div class="footer-top-first">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-4 text-center text-sm-left">
+                <a href="index.html" class="site-logo"><img src="assets/images/newlogo.png" alt="logo"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top-second">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+                <div class="footer-widget widget-about">
+                  <h3 class="widget-title">About colleGPS</h3>
+                  <ul class="footer-list-menu">
+                    <li><a href="calculator.html">College Calculator</a></li>
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">MBTI</a></li>
+                    <li><a href="news/all.html">News</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget widget-subscribe">
+                  <h3 class="widget-title">email newsletters</h3>
+                  <div class="subscribe-part">
+                    <p>Subscribe now and receive weekly newsletter for latest draw and offer news and much more!</p>
+                    <form class="subscribe-form">
+                      <input type="email" name="subs_email" id="subs_email" placeholder="Email address">
+                      <input type="submit" value="subscribe">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-sm-7">
+              <div class="copy-right-text">
+                <p>© 2019 <a href="#">colleGPS</a> - All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-5">
+              <ul class="footer-social-links d-flex justify-content-end">
+                <li><a href="#0"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#0"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-section end -->
+
+    <!-- scroll-to-top start -->
+    <div class="scroll-to-top">
+      <span class="scroll-icon">
+        <i class="fa fa-angle-up"></i>
+      </span>
     </div>
-  </footer>
-  <!-- footer-section end -->
+    <!-- scroll-to-top end -->
 
-  <!-- scroll-to-top start -->
-  <div class="scroll-to-top">
-    <span class="scroll-icon">
-      <i class="fa fa-angle-up"></i>
-    </span>
-  </div>
-  <!-- scroll-to-top end -->
-
-  <!-- jquery library js file -->
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
-  <!-- bootstrap js file -->
-  <script src="assets/js/bootstrap.min.js"></script>
-  <!-- flipclock js file -->
-  <script src="assets/js/flipclock.min.js"></script>
-  <!-- countdown js file -->
-  <script src="assets/js/jquery.countdown.min.js"></script>
-  <!-- slick js file -->
-  <script src="assets/js/slick.min.js"></script>
-  <!-- swiper js file -->
-  <script src="assets/js/swiper.min.js"></script>
-  <!-- lightcase js file -->
-  <script src="assets/js/lightcase.js"></script>
-  <!-- wow js file -->
-  <script src="assets/js/wow.min.js"></script>
-  <!-- vamp js files -->
-  <script src="assets/js/jquery.vmap.min.js"></script>
-  <script src="assets/js/jquery.vmap.world.js"></script>
-  <!-- main script js file -->
-  <script src="assets/js/main.js"></script>
-  <!-- our customized js file -->
-  <script src="script.js"></script>
+    <!-- jquery library js file -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- flipclock js file -->
+    <script src="assets/js/flipclock.min.js"></script>
+    <!-- countdown js file -->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- slick js file -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- swiper js file -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js file -->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- wow js file -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- vamp js files -->
+    <script src="assets/js/jquery.vmap.min.js"></script>
+    <script src="assets/js/jquery.vmap.world.js"></script>
+    <!-- main script js file -->
+    <script src="assets/js/main.js"></script>
+    <!-- our customized js file -->
+    <script src="script.js"></script>
 </body>
 
 </html>
