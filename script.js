@@ -19,15 +19,27 @@ function get_recommendation() {
   var residence = $("#state_input option:selected").text();
   if (residence == "") {
     residence = 0;
-  }
-  var aplist = $("#act_input").val();
-  if (aplist == "") {
-    aplist = 0;
-  }
+  } 
   var loanAmount = $("#loanAmount").val();
   if (loanAmount == "") {
     loanAmount = 0;
   }  
+
+  var aplist = [];
+  aplist.push($("#ap_history option:selected").text());
+  aplist.push($("#ap_bio option:selected").text());
+  aplist.push($("#ap_calab option:selected").text());
+  aplist.push($("#ap_calbc option:selected").text());
+  aplist.push($("#ap_chemistry option:selected").text());
+  aplist.push($("#ap_chinese option:selected").text());
+  aplist.push($("#ap_csa option:selected").text());
+  aplist.push($("#ap_eng option:selected").text());
+  aplist.push($("#ap_env option:selected").text());
+  aplist.push($("#ap_euhis option:selected").text());
+  aplist.push($("#ap_phy1 option:selected").text());
+  aplist.push($("#ap_phy2 option:selected").text());
+  aplist.push($("#ap_phyc option:selected").text());
+  
 
   console.log(gpa);
   console.log(sat);
@@ -38,7 +50,7 @@ function get_recommendation() {
   console.log(loanAmount);
   
   $.ajax({
-    url: "https://bill-zheng-project.herokuapp.com/getschool/" + gpa + "/" + sat + "/" + act + "/" + aplist + "/" + mbti + "/" + residence + "/" + loanAmount,
+    url: "https://bill-zheng-project.herokuapp.com/getschool/" + gpa + "/" + sat + "/" + act + "/" + aplist.join() + "/" + mbti + "/" + residence + "/" + loanAmount,
     success: function(result) {
       console.log(result);
       var res = JSON.parse(result);
