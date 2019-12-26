@@ -12,7 +12,7 @@ function get_recommendation() {
   if (act == "") {
     act = 0;
   }
-  var mbti = $("#mbti_input").val();
+  var mbti = $("#mbti_input").text();
   if (mbti == "") {
     mbti = 0;
   }
