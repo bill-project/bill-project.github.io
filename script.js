@@ -56,6 +56,7 @@ function get_recommendation() {
       var res = JSON.parse(result);
       $("#result_text").text(res.name);
       $("#result_image").attr("src", res.image);
+      $("#result_major_text").text(res.major);
     }
   });
 }
