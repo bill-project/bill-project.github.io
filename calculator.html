@@ -227,7 +227,7 @@
             <div class="col-lg-4">
               <div>
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
-                  <h3 class="pb-2">GPA</h3>
+                  <h3 class="pb-2">Unweighted GPA</h3>
                   <input id="gpa_input" style="width: 50%" type="text" name="gpa">
                 </div>
               </div>
@@ -254,9 +254,9 @@
                 <div class="text-center">Select the AP tests that you've taken</div>
                 <div class="row latest-result-item-header text-center">
                   <div class="col-lg-3">
-                    <label for="ush" style="word-wrap: break-word;">US History
+                    <label for="ush" style="word-wrap: break-word;">Art History
                       <br>
-                      <select name="state" id="ap_history">
+                      <select name="state" id="ap_arthis">
                         <option value="0">NA</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -345,9 +345,35 @@
                     </label>
                   </div>
                   <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Computer Science Principles
+                      <br>
+                      <select name="state" id="ap_csp">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
                     <label for="ush" style="word-wrap: break-word;">English Language and Composition
                       <br>
                       <select name="state" id="ap_eng">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">English Literature and Composition
+                      <br>
+                      <select name="state" id="ap_engl">
                         <option value="0">NA</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -374,6 +400,45 @@
                     <label for="ush" style="word-wrap: break-word;">European History
                       <br>
                       <select name="state" id="ap_euhis">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">French Language and Culture
+                      <br>
+                      <select name="state" id="ap_fr">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">German Language and Culture
+                      <br>
+                      <select name="state" id="ap_de">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Government and Politics (Comparative)
+                      <br>
+                      <select name="state" id="ap_de">
                         <option value="0">NA</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -412,7 +477,7 @@
                   <div class="col-lg-3">
                     <label for="ush" style="word-wrap: break-word;">Physics C: Mechanics
                       <br>
-                      <select name="state" id="ap_calab">
+                      <select name="state" id="ap_phycm">
                         <option value="0">NA</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -425,7 +490,20 @@
                   <div class="col-lg-3">
                     <label for="ush" style="word-wrap: break-word;">Physics C: Electricity and Magnetism
                       <br>
-                      <select name="state" id="ap_phyc">
+                      <select name="state" id="ap_phyce">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">US History
+                      <br>
+                      <select name="state" id="ap_ushis">
                         <option value="0">NA</option>
                         <option value="1">1</option>
                         <option value="2">2</option>
@@ -528,6 +606,57 @@
                 <div class="row latest-result-item-header d-flex flex-column align-items-center">
                   <h3 class="pb-2">Planned Loan</h3>
                   <input id="loanAmount" style="width: 50%" type="text" name="loanAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Expected time to pay your loans back in years</h3>
+                  <input id="timeAmount" style="width: 50%" type="text" name="timeAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">What type of College do you want to attend?</h3>
+                  <select name="state" id="state_input">
+                    <option value="LAS">Liberal Arts School</option>
+                    <option value="SS">Small School (Student size <5,000)</option>
+                    <option value="MES">Medium School (Student size 5,000-10,000)</option>
+                    <option value="AR">Large School (Student size >10,000)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Which environment do you prefer?</h3>
+                  <select name="environment type" id="env_input">
+                    <option value="UB">Urban</option>
+                    <option value="SU">Suburb</option>
+                    <option value="RU">Rural</option>
+                    <option value="CO">College Town</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Which region of the United States do you prefer?</h3>
+                  <select name="state" id="reg_input">
+                    <option value="MH">My Home State</option>
+                    <option value="NE">New England</option>
+                    <option value="AT">Northeastern States</option>
+                    <option value="SE">Southeastern States</option>
+                    <option value="CE">Midwest</option>
+                    <option value="SO">Southern US</option>
+                    <option value="W">West</option>
+                    <option value="WC">West Coast</option>
+                  </select>
                 </div>
               </div>
             </div>
