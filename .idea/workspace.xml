@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d87a509-0b84-4555-9b38-5eb478e258a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/python-server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/affiliate.html" beforeDir="false" afterPath="$PROJECT_DIR$/affiliate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-lottery-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-lottery-one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-lottery-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-lottery-three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all-lottery-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/all-lottery-two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/dark-version.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/dark-version.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/flipclock.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/flipclock.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/jqvmap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/jqvmap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/lightcase.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/lightcase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/swiper.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.eot" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/lightcase.woff" beforeDir="false" afterPath="$PROJECT_DIR$/assets/fonts/lightcase.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/about-image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/about-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/affiliate/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/affiliate/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/affiliate/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/affiliate/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/affiliate/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/affiliate/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner-net.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/banner-net.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-five.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-five.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-four.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-four.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-one.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-one.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-three.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-three.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/bg-two.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/bg-two.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/L6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/L6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/b-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/b-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/m6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/m6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/rp-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/rp-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/rp-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/rp-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/rp-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/rp-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/w1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/w1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/w2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/w2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/w3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/w3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/blog/w4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/blog/w4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/w-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/w-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/w-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/w-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/w-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/w-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/w-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/w-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/brand/w-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/brand/w-5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/contact-mg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/contact-mg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dark-bg-four.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dark-bg-four.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dark-bg-one.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dark-bg-one.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dark-bg-three.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dark-bg-three.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/dark-bg-two.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dark-bg-two.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/404.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/404.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/box.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/box.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/car.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/chart.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/chart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/collect-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/collect-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/collect-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/collect-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/collect-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/collect-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/contact.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/contact.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/dollars.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/dollars.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/faq.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/faq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/jackpot-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/jackpot-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/jackpot-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/jackpot-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/jackpot-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/jackpot-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/jackpot-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/jackpot-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/laptop.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/laptop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/line.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/money-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/money-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/mouse.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/mouse.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/person-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/person-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/person.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/power.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/power.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/step.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/step.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/trophy.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/trophy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/elements/vector-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/elements/vector-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/flag/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/flag/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/flag/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/flag/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/flag/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/flag/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/inner-page-banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inner-page-banner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/inner-page-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/inner-page-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/cm1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/cm1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/cm2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/cm2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/payment-methods/cm3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/payment-methods/cm3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/preloader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/preloader.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/affiliate-icons/4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/5.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/6.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/7.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/7.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/8.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/choose-us-icons/8.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/how-work-icons/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/overview-icons/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/reward/1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/reward/1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/reward/2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/reward/2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/svg-icons/reward/3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/svg-icons/reward/3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/team/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/team/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/testimonial/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/testimonial/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/testimonial/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/1 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/1 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/winner/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/winner/8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/flipclock.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/flipclock.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/goolg-map-activate.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/goolg-map-activate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.countdown.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.vmap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.vmap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/jquery.vmap.world.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/jquery.vmap.world.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/lightcase.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/lightcase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/slick.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/slick.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/swiper.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/swiper.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/wow.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/wow.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-four.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-four.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-three.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-three.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog-two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/css/prettify.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/css/prettify.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/js/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/js/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation/js/prettify/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/documentation/js/prettify/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error-404.html" beforeDir="false" afterPath="$PROJECT_DIR$/error-404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" afterPath="$PROJECT_DIR$/faq.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-one.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-two.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-two.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/how-to-play.html" beforeDir="false" afterPath="$PROJECT_DIR$/how-to-play.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/latest-winner.html" beforeDir="false" afterPath="$PROJECT_DIR$/latest-winner.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1eOFTzNhDLM3TOl6CgaUPH7PBEX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jungc\collegps" />
+      <recent name="C:\Users\jungc\collegps\static" />
+      <recent name="C:\Users\jungc\collegps\templates" />
+      <recent name="C:\Users\jungc\collegps\backend" />
+      <recent name="C:\Users\jungc\collegps\frontend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.python-server (3)">
+    <configuration name="python-server (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="collegps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\jungc\collegps\backend\python-server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python-server (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="collegps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\jungc\collegps\backend\python-server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python-server (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="collegps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/python-server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="python-server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="collegps" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\jungc\collegps\backend\python-server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.python-server (3)" />
+        <item itemvalue="Python.python-server (2)" />
+        <item itemvalue="Python.python-server (1)" />
+        <item itemvalue="Python.python-server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d87a509-0b84-4555-9b38-5eb478e258a6" name="Default Changelist" comment="" />
+      <created>1594184743437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594184743437</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1594188953834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594188953834" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1594188953834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594188953834" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1594188953834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594188953834" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1594188953834">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594188953834" />
+  </component>
+</project>
