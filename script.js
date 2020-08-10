@@ -15,7 +15,10 @@ function get_recommendation() {
   var mbti = $("#mbti_input option:selected").text();
   if (mbti == "") {
     mbti = 0;
+  } else if (mbti == "ENTJ") {
+    mbti = 5;
   }
+
   var residence = $("#state_input option:selected").text();
   if (residence == "") {
     residence = 0;
@@ -27,7 +30,11 @@ function get_recommendation() {
 
   var aplist = [];
   aplist.push($("#ap_history option:selected").text());
+  ap_1 = $("#ap_history option:selected").text();
+
   aplist.push($("#ap_bio option:selected").text());
+  ap_2 = $("#ap_bio option:selected").text();
+
   aplist.push($("#ap_calab option:selected").text());
   aplist.push($("#ap_calbc option:selected").text());
   aplist.push($("#ap_chemistry option:selected").text());
@@ -50,13 +57,24 @@ function get_recommendation() {
   console.log(loanAmount);
   
   $.ajax({
-    url: "https://bill-zheng-project.herokuapp.com/getschool/" + gpa + "/" + sat + "/" + act + "/" + aplist.join() + "/" + mbti + "/" + residence + "/" + loanAmount,
+    url: "https://ml.billzheng2.repl.co/getmajor/" + mbti + "/" + "2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39",
     success: function(result) {
       console.log(result);
       var res = JSON.parse(result);
-      $("#result_text").text(res.name);
-      $("#result_image").attr("src", res.image);
-      $("#result_major_text").text(res.major);
+      $("#result_text").text(res.result4);
+      // $("#result_image").attr("src", res.image);
+      $("#result_major_text").text(res.result1);
     }
   });
+
+  // $.ajax({
+  //   url: "https://bill-zheng-project.herokuapp.com/getschool/" + gpa + "/" + sat + "/" + act + "/" + aplist.join() + "/" + mbti + "/" + residence + "/" + loanAmount,
+  //   success: function(result) {
+  //     console.log(result);
+  //     var res = JSON.parse(result);
+  //     $("#result_text").text(res.name);
+  //     $("#result_image").attr("src", res.image);
+  //     $("#result_major_text").text(res.major);
+  //   }
+  // });
 }
