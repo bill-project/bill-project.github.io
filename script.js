@@ -13,11 +13,39 @@ function get_recommendation() {
     act = 0;
   }
   var mbti = $("#mbti_input option:selected").text();
-  if (mbti == "") {
-    mbti = 0;
+  if (mbti == "INTJ") {
+    mbti = 1;
+  } else if (mbti == "INTP") {
+    mbti = 2;
   } else if (mbti == "ENTJ") {
+    mbti = 3;
+  } else if (mbti == "ENTP") {
+    mbti = 4;
+  } else if (mbti == "INFJ") {
     mbti = 5;
-  }
+  } else if (mbti == "INFP") {
+    mbti = 6;
+  } else if (mbti == "ENFJ") {
+    mbti = 7;
+  } else if (mbti == "ENFP") {
+    mbti = 8;
+  } else if (mbti == "ISTJ") {
+    mbti = 9;
+  } else if (mbti == "ISTP") {
+    mbti = 10;
+  } else if (mbti == "ESFJ") {
+    mbti = 11;
+  } else if (mbti == "ESTP") {
+    mbti = 12;
+  } else if (mbti == "ISFJ") {
+    mbti = 13;
+  } else if (mbti == "ISFP") {
+    mbti = 14;
+  } else if (mbti == "ESTJ") {
+    mbti = 15;
+  } else if (mbti == "ESFP") {
+    mbti = 16;
+  } 
 
   var residence = $("#state_input option:selected").text();
   if (residence == "") {
