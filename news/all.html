@@ -33,45 +33,42 @@
 <body>
 
   <!-- preloader start -->
-  <div id="preloader"></div>
-  <!-- preloader end -->
-
-  <!--  header-section start  -->
-  <div class="main-light-version">
+    <div class="main-light-version homeNav">
     <!--  header-section start  -->
     <header class="header-section">
       <div class="header-top">
         <div class="container">
           <nav class="navbar navbar-expand-xl">
-            <a class="site-logo site-title" href="../index.html"><img src="../assets/images/newlogo.png"
-                alt="site-logo"></a>
+            <a class="site-logo site-title" href="index.html"><img src="assets/images/newlogo.png" alt="site-logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="menu-toggle"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav main-menu ml-auto">
-                <li><a href="../index.html">Home</a>
-
+                <li class="active"><a id="homeNav">Home</a>
                 </li>
-                <li><a href="../calculator.html">college calculator</a>
-                <li class="menu_has_children"><a href="#0">MBTI</a>
-                  <ul class="sub-menu">
-                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
+                  <li><a target="_blank" href="calculator.html"> College Calculator</a></li>
+                  <li class="menu_has_children"><a id="mbtiNav">MBTI</a>
+                    <ul class="sub-menu">
+                      <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
                         Test</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu_has_children"><a id="newsNav">news</a>
+                    <ul class="sub-menu">
+                      <li><a href="news/financial.html">Financial</a></li>
+                      <li><a href="news/rankings.html">University Rankings</a></li>
+                      <li><a href="news/college_preparation.html">College Preparation</a></li>
+                      <li><a href="news/social_life.html">Social Life</a></li>
+                      <li><a href="news/career_advice.html">Career Advice</a></li>
                   </ul>
                 </li>
-                <li class="active menu_has_children"><a href="all.html">news</a>
-                  <ul class="sub-menu">
-                    <li><a href="financial.html">Financial</a></li>
-                    <li><a href="rankings.html">University Rankings</a></li>
-                    <li><a href="college_preparation.html">College Preparation</a></li>
-                    <li><a href="social_life.html">Social Life</a></li>
-                    <li><a href="career_advice.html">Career Advice</a></li>
-                  </ul>
                 </li>
-                <li><a href="../contact.html">contact us</a></li>
               </ul>
+              <div class="header-join-part">
+                <button type="button" class="cmn-btn" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+              </div>
             </div>
           </nav>
         </div>
@@ -87,7 +84,7 @@
               <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
                   <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab"
-                    aria-controls="login" aria-selected="true">Login</a>
+                    aria-controls="login" aria-selected="true" type="calcButton">Login</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" id="registration-tab" data-toggle="tab" href="#registration" role="tab"
@@ -126,22 +123,23 @@
                     </div>
                     <div class="frm-group">
                       <div class="login-with-area">
-                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                        <div class="g-signin2" data-onsuccess="onSignIn"></div>
                       </div>
                     </div>
                   </form>
-                  <div class="have-not-account">
-                    <p>You don’t have an account?<a href="#0">Register Now</a></p>
-                  </div>
                 </div>
                 <div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
                   <form class="registration-form cmn-frm">
                     <div class="frm-group">
-                      <label>Username or Email Address</label>
+                      <label>Email Address</label>
                       <input type="email" name="registration_email" id="registration_email"
-                        placeholder="Username or Email Address">
+                        placeholder="Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Username</label>
+                      <input type="Username" name="registration_username" id="registration_username"
+                        placeholder="Username">
                       <i class="fa fa-user"></i>
                     </div>
                     <div class="frm-group">
@@ -157,7 +155,7 @@
                       <i class="fa fa-lock"></i>
                     </div>
                     <div class="frm-group">
-                      <input type="submit" name="registration_submit" id="registration_submit" value="Registration">
+                      <input type="submit" name="registration_submit" id="registration_submit" value="Register">
                     </div>
                     <div class="frm-group">
                       <div class="checkbox-area">
@@ -175,15 +173,12 @@
                     </div>
                     <div class="frm-group">
                       <div class="login-with-area">
-                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
-                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
-                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>Facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>Google</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>Twitter</a>
                       </div>
                     </div>
                   </form>
-                  <div class="have-not-account">
-                    <p>Already have an account?<a href="#0">Login</a></p>
-                  </div>
                 </div>
               </div>
             </div>
@@ -218,17 +213,14 @@
                     <img src="../assets/images/blog/1.jpg" alt="image">
                   </div>
                   <div class="content">
-                    <h3 class="post-title"><a href="#0">Learn the Advantages of Playing Lottery Online and Choose a
-                        Lottery for Yourself</a></h3>
+                    <h3 class="post-title"><a href="#0">Path to a Successful College Application</a></h3>
                     <ul class="post-meta">
-                      <li><a href="#0"><span>BY</span>David Millward</a></li>
-                      <li><a href="#0"><i class="fa fa-calendar"></i>11 June 2018</a></li>
-                      <li><a href="#0"><i class="fa fa-clock-o"></i>12:46AM</a></li>
+                      <li><a href="#0"><span>BY</span>Grant Oh</a></li>
+                      <li><a href="#0"><i class="fa fa-calendar"></i>August 13, 2020</a></li>
+                      <li><a href="#0"><i class="fa fa-clock-o"></i>9:17 PM</a></li>
                     </ul>
-                    <p>Do you play lotto regularly, yet, the necessity of visiting an outlet each time you want to
-                      purchase a Lotto ticket is uncomfortable for you? Do you have a lack of time like many of us and
-                      usually can’t manage to visit an outlet before its closure?</p>
-                    <a href="#0" class="blog-btn">read more</a>
+                    <p>There are many ways one gets accepted into college, what are the different ways? Learn in this article below</p>
+                    <a href="Article1.html" class="blog-btn">read more</a>
                   </div>
                 </div>
               </div><!-- post-item end -->
