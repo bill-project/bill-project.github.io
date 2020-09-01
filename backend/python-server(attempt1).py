@@ -23,6 +23,11 @@ def affiliate():
     return render_template('affiliate.html')
 
 
+@app.route('/all.html')
+def all():
+    return render_template('all.html')
+
+
 @app.route('/all-lottery-one.html')
 def all_lottery_one():
     return render_template('all-lottery-one.html')

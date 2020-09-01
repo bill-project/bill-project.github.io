@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>colleGPS</title>
+  <!-- site favicon -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/colleGPSfavicon.png">
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- animate css link -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- lightcase css link -->
+  <link rel="stylesheet" href="assets/css/lightcase.css">
+  <!-- slick css link -->
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <!-- flipclock css link -->
+  <link rel="stylesheet" href="assets/css/flipclock.css">
+  <!-- jqvmap css link -->
+  <link rel="stylesheet" href="assets/css/jqvmap.min.css">
+  <!-- main style css link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- responsive css link -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!-- preloader start -->
+  <div id="preloader"></div>
+  <!-- preloader end -->
+
+  <!--  header-section start  -->
+  <div class="main-light-version">
+    <!--  header-section start  -->
+    <header class="header-section">
+      <div class="header-top">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl">
+            <a class="site-logo site-title" href="index.html"><img src="assets/images/newlogo.png" alt="site-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-toggle"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav main-menu ml-auto">
+                <li><a href="index.html">Home</a>
+
+                </li>
+                <li class="active"><a href="calculator.html">college calculator</a>
+                <li class="menu_has_children"><a href="#0">MBTI</a>
+                  <ul class="sub-menu">
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
+                        Test</a></li>
+                  </ul>
+                </li>
+                <li class="menu_has_children"><a href="../news/all.html">news</a>
+                  <ul class="sub-menu">
+                    <li><a href="news/financial.html">Financial</a></li>
+                    <li><a href="news/rankings.html">University Rankings</a></li>
+                    <li><a href="news/college_preparation.html">College Preparation</a></li>
+                    <li><a href="news/social_life.html">Social Life</a></li>
+                    <li><a href="news/career_advice.html">Career Advice</a></li>
+                  </ul>
+                </li>
+                <li><a href="contact.html">contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div><!-- header-bottom end -->
+    </header>
+    <!--  header-section end  -->
+
+    <!--login registration Modal -->
+    <div class="modal fade login-registration-modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="login-registration-area">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab"
+                    aria-controls="login" aria-selected="true">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="registration-tab" data-toggle="tab" href="#registration" role="tab"
+                    aria-controls="registration" aria-selected="false">Registration</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                  <form class="login-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="login_email" id="login_email" placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="login_pass" id="login_pass" placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit2" id="registration_submit2" value="login">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="login_remember_pass">
+                        <label for="login_remember_pass">Remember Password</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>You don’t have an account?<a href="#0">Register Now</a></p>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
+                  <form class="registration-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="registration_email" id="registration_email"
+                        placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="registration_pass" id="registration_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Confirm Password</label>
+                      <input type="password" name="registration_re_pass" id="registration_re_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit" id="registration_submit" value="Registration">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="registration_remember_pass">
+                        <label for="registration_remember_pass">I Agree with the Terms of Use</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>Already have an account?<a href="#0">Login</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- inner-page-banner start -->
+    <section class="inner-page-banner has_bg_image">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="inner-page-banner-area justify-content-center d-flex">
+              <h1 class="page-title d-flex justify-content-center pb-3">College Calculator</h1>
+              <p class="d-flex justify-content-center pb-5">The college calculator uses your GPA, test scores, MBTI
+                type,
+                state of residence, and payment plan to match you with a preferred college.</p>
+              <img src="assets/images/elements/faq.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- inner-page-banner end -->
+
+
+    <!-- Form start -->
+    <form action="">
+      <!-- lottery-result-section start -->
+      <section class="lottery-result-section section-padding">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="section-header text-center">
+                <h2 class="section-title">Please enter the following information</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-mb-15">
+            <div class="col-lg-4">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Unweighted GPA</h3>
+                  <input id="gpa_input" style="width: 50%" type="text" name="gpa">
+                </div>
+              </div>
+            </div><!-- latest-result-item end -->
+            <div class="col-lg-4">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">SAT Score</h3>
+                  <input id="sat_input" style="width: 50%" type="text" name="satScore">
+                </div>
+              </div>
+            </div><!-- latest-result-item end -->
+            <div class="col-lg-4">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">ACT Score</h3>
+                  <input id="act_input" style="width: 50%" type="text" name="actScore">
+                </div>
+              </div>
+            </div><!-- latest-result-item end -->
+            <div class="col-lg-12">
+              <div>
+                <h3 class="text-center pt-3 pb-2">AP Scores</h3>
+                <div class="text-center">Select the AP tests that you've taken</div>
+                <div class="row latest-result-item-header text-center">
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Art History
+                      <br>
+                      <select name="state" id="ap_arthis">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Biology
+                      <br>
+                      <select name="state" id="ap_bio">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Calculus AB
+                      <br>
+                      <select name="state" id="ap_calab">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Calculus BC
+                      <br>
+                      <select name="state" id="ap_calbc">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Chemistry
+                      <br>
+                      <select name="state" id="ap_chemistry">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Chinese Language and Culture
+                      <br>
+                      <select name="state" id="ap_chinese">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Computer Science A
+                      <br>
+                      <select name="state" id="ap_csa">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Computer Science Principles
+                      <br>
+                      <select name="state" id="ap_csp">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">English Language and Composition
+                      <br>
+                      <select name="state" id="ap_eng">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">English Literature and Composition
+                      <br>
+                      <select name="state" id="ap_engl">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Environmental Science
+                      <br>
+                      <select name="state" id="ap_env">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">European History
+                      <br>
+                      <select name="state" id="ap_euhis">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">French Language and Culture
+                      <br>
+                      <select name="state" id="ap_fr">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">German Language and Culture
+                      <br>
+                      <select name="state" id="ap_de">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Government and Politics (Comparative)
+                      <br>
+                      <select name="state" id="ap_de">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Physics 1
+                      <br>
+                      <select name="state" id="ap_phy1">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Physics 2
+                      <br>
+                      <select name="state" id="ap_phy2">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Physics C: Mechanics
+                      <br>
+                      <select name="state" id="ap_phycm">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">Physics C: Electricity and Magnetism
+                      <br>
+                      <select name="state" id="ap_phyce">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                  <div class="col-lg-3">
+                    <label for="ush" style="word-wrap: break-word;">US History
+                      <br>
+                      <select name="state" id="ap_ushis">
+                        <option value="0">NA</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                      </select>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div><!-- latest-result-item end -->
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">MBTI Type</h3>
+                  <select name="state" id="mbti_input">
+                    <option value="1">INTJ</option>
+                    <option value="2">INTP</option>
+                    <option value="3">ENTJ</option>
+                    <option value="4">ENTP</option>
+                    <option value="5">INFJ</option>
+                    <option value="6">INFP</option>
+                    <option value="7">ENFJ</option>
+                    <option value="8">ENFP</option>
+                    <option value="9">ISTJ</option>
+                    <option value="10">ISTP</option>
+                    <option value="11">ESFJ</option>
+                    <option value="12">ESTP</option>
+                    <option value="13">ISFJ</option>
+                    <option value="14">ISFP</option>
+                    <option value="15">ESTJ</option>
+                    <option value="16">ESFP</option>
+                  </select>
+                  <!-- <input style="width: 50%" type="text" name="mbtiType" id="mbti_input"> -->
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">State of Residence</h3>
+                  <select name="state" id="state_input">
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Planned Loan</h3>
+                  <input id="loanAmount" style="width: 50%" type="text" name="loanAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Expected time to pay your loans back in years</h3>
+                  <input id="timeAmount" style="width: 50%" type="text" name="timeAmount">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">What type of College do you want to attend?</h3>
+                  <select name="state" id="state_input">
+                    <option value="LAS">Liberal Arts School</option>
+                    <option value="SS">Small School (Student size <5,000)</option>
+                    <option value="MES">Medium School (Student size 5,000-10,000)</option>
+                    <option value="AR">Large School (Student size >10,000)</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Which environment do you prefer?</h3>
+                  <select name="environment type" id="env_input">
+                    <option value="UB">Urban</option>
+                    <option value="SU">Suburb</option>
+                    <option value="RU">Rural</option>
+                    <option value="CO">College Town</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <div>
+                <div class="row latest-result-item-header d-flex flex-column align-items-center">
+                  <h3 class="pb-2">Which region of the United States do you prefer?</h3>
+                  <select name="state" id="reg_input">
+                    <option value="MH">My Home State</option>
+                    <option value="NE">New England</option>
+                    <option value="AT">Northeastern States</option>
+                    <option value="SE">Southeastern States</option>
+                    <option value="CE">Midwest</option>
+                    <option value="SO">Southern US</option>
+                    <option value="W">West</option>
+                    <option value="WC">West Coast</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 pt-5">
+              <div class="content text-center">
+                <a href="#0" class="cmn-btn" onclick="get_recommendation()">Calculate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="lottery-result-section section-padding section-bg">
+        <div class="container">
+          <div class="row mt-mb-15">
+            <div class="col-lg-12">
+              <div class="latest-result-item">
+                <h3 class="text-center pt-3 pb-2">Optional Questionnaire</h3>
+                <div class="text-center">Please answer the following questions.</div>
+                <div class="wrap">
+                    <label class="statement">You like socializing in public.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="firstQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You are more interested in dealing with numbers than words.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="secondQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You are more interested in words than numbers.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="thirdQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">Creativity matters more than hard knowledge in your class.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fourthQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                    <label class="statement">You think a lot before you speak.</label>
+                    <ul class='likert'>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Strongly agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Agree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Neutral</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="disagree">
+                        <label>Disagree</label>
+                      </li>
+                      <li>
+                        <input type="radio" name="fifthQ" value="strong_agree">
+                        <label>Strongly disagree</label>
+                      </li>
+                    </ul>
+                </div>
+                <div class="latest-result-item-footer">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section> -->
+    </form>
+    <!-- Form end -->
+
+    <!-- question-section start -->
+    <section class="question-section section-padding section-bg">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-lg-12">
+            <h3>Result</h3>
+            <h1 id="result_text"></h1>
+            <img width="80%" height="200" id="result_image"></img>
+            <h3>Major</h3>
+            <h1 id="result_major_text"></h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- question-section end -->
+
+    <!-- footer-section start -->
+    <footer class="footer-section">
+      <div class="footer-top border-top border-bottom has_bg_image">
+        <div class="footer-top-first">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-4 text-center text-sm-left">
+                <a href="index.html" class="site-logo"><img src="assets/images/newlogo.png" alt="logo"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top-second">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+                <div class="footer-widget widget-about">
+                  <h3 class="widget-title">About colleGPS</h3>
+                  <ul class="footer-list-menu">
+                    <li><a href="calculator.html">College Calculator</a></li>
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">MBTI</a></li>
+                    <li><a href="news/all.html">News</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget widget-subscribe">
+                  <h3 class="widget-title">email newsletters</h3>
+                  <div class="subscribe-part">
+                    <p>Subscribe now and receive weekly newsletter for latest draw and offer news and much more!</p>
+                    <form class="subscribe-form">
+                      <input type="email" name="subs_email" id="subs_email" placeholder="Email address">
+                      <input type="submit" value="subscribe">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-sm-7">
+              <div class="copy-right-text">
+                <p>© 2019 <a href="#">colleGPS</a> - All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-5">
+              <ul class="footer-social-links d-flex justify-content-end">
+                <li><a href="#0"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#0"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-section end -->
+
+    <!-- scroll-to-top start -->
+    <div class="scroll-to-top">
+      <span class="scroll-icon">
+        <i class="fa fa-angle-up"></i>
+      </span>
+    </div>
+    <!-- scroll-to-top end -->
+
+    <!-- jquery library js file -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- flipclock js file -->
+    <script src="assets/js/flipclock.min.js"></script>
+    <!-- countdown js file -->
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <!-- slick js file -->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- swiper js file -->
+    <script src="assets/js/swiper.min.js"></script>
+    <!-- lightcase js file -->
+    <script src="assets/js/lightcase.js"></script>
+    <!-- wow js file -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- vamp js files -->
+    <script src="assets/js/jquery.vmap.min.js"></script>
+    <script src="assets/js/jquery.vmap.world.js"></script>
+    <!-- main script js file -->
+    <script src="assets/js/main.js"></script>
+    <!-- our customized js file -->
+    <script src="script.js"></script>
+</body>
+
+</html>

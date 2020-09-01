@@ -13,6 +13,9 @@ function get_recommendation() {
     act = 0;
   }
   var mbti = $("#mbti_input option:selected").text();
+  console.log("mbti1: " + $("#mbti_input"));
+    console.log("mbti2: " + $("#mbti_input option:selected"));
+      console.log("mbti3: " + $("#mbti_input option:selected").text());
   if (mbti == "INTJ") {
     mbti = 1;
   } else if (mbti == "INTP") {
@@ -59,7 +62,7 @@ function get_recommendation() {
   var aplist = [];
 
   aplist.push($("mbti_input option:selected").text());
-  mbti = $("mbti_input option:selected").text();
+  //mbti = $("mbti_input option:selected").text();
 
   aplist.push($("#ap_res option:selected").text());
   ap_res = $("#ap_res option:selected").text();
@@ -184,9 +187,9 @@ function get_recommendation() {
   console.log(loanAmount);
   
   $.ajax({
-    url: "https://ml.billzheng2.repl.co/getmajor/" + mbti + "/" + "2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39/",
+    url: "https://ml.billzheng2.repl.co/getmajor/" + mbti + "/" + "2/3/4/5/6/7/8/9/10/11/12/13/14/15/16/17/18/19/20/21/22/23/24/25/26/27/28/29/30/31/32/33/34/35/36/37/38/39",
     success: function(result) {
-      console.log(result);
+      console.log("success: " + result);
       var res = JSON.parse(result);
       $("#result_text").text(res.result4);
       // $("#result_image").attr("src", res.image);

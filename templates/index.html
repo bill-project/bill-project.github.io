@@ -1,0 +1,1196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>colleGPS</title>
+  <!-- site favicon -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/colleGPSfavicon.png">
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- animate css link -->
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <!-- lightcase css link -->
+  <link rel="stylesheet" href="assets/css/lightcase.css">
+  <!-- slick css link -->
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <!-- flipclock css link -->
+  <link rel="stylesheet" href="assets/css/flipclock.css">
+  <!-- jqvmap css link -->
+  <link rel="stylesheet" href="assets/css/jqvmap.min.css">
+  <!-- main style css link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- responsive css link -->
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- preloader start -->
+  <div id="preloader"></div>
+  <!-- preloader end -->
+
+  <div class="main-light-version homeNav">
+    <!--  header-section start  -->
+    <header class="header-section">
+      <div class="header-top">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl">
+            <a class="site-logo site-title" href="index.html"><img src="assets/images/newlogo.png" alt="site-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-toggle"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav main-menu ml-auto">
+                <li class="active"><a id="homeNav">Home</a>
+                </li>
+                <li><a id="calcNav">Our Guidance</a>
+                  <ul class = "sub-menu">
+                  	<li><a target="_blank" href="http://collegps.com/calculator.html"> College Calculator</a></li>
+                <li class="menu_has_children"><a id="mbtiNav">MBTI</a>
+                  <ul class="sub-menu">
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
+                        Test</a></li>
+                  </ul>
+                </li>
+                <li class="menu_has_children"><a id="newsNav">news</a>
+                  <ul class="sub-menu">
+                    <li><a href="news/financial.html">Financial</a></li>
+                    <li><a href="news/rankings.html">University Rankings</a></li>
+                    <li><a href="news/college_preparation.html">College Preparation</a></li>
+                    <li><a href="news/social_life.html">Social Life</a></li>
+                    <li><a href="news/career_advice.html">Career Advice</a></li>
+                  </ul>
+                </li>
+                </li>
+                <li><a href="contact.html">contact us</a></li>
+              </ul>
+              <!-- <div class="header-join-part">
+                <button type="button" class="cmn-btn" data-toggle="modal" data-target="#exampleModal">sign up</button>
+              </div> -->
+            </div>
+          </nav>
+        </div>
+      </div><!-- header-bottom end -->
+    </header>
+    <!--  header-section end  -->
+    <!--login registration Modal -->
+    <div class="modal fade login-registration-modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="login-registration-area">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab"
+                    aria-controls="login" aria-selected="true" type="calcButton">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="registration-tab" data-toggle="tab" href="#registration" role="tab"
+                    aria-controls="registration" aria-selected="false">Registration</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                  <form class="login-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="login_email" id="login_email" placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="login_pass" id="login_pass" placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit2" id="registration_submit2" value="login">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="login_remember_pass">
+                        <label for="login_remember_pass">Remember Password</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>You don’t have an account?<a href="#0">Register Now</a></p>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
+                  <form class="registration-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="registration_email" id="registration_email"
+                        placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="registration_pass" id="registration_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Confirm Password</label>
+                      <input type="password" name="registration_re_pass" id="registration_re_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit" id="registration_submit" value="Registration">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="registration_remember_pass">
+                        <label for="registration_remember_pass">I Agree with the Terms of Use</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>Already have an account?<a href="#0">Login</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- banner-section start -->
+    <section class="banner-section">
+      <div class="banner-elements-part has_bg_image" data-background="assets/images/elements/vector-bg.jpg">
+        <div class="element-one"><img src="assets/images/elements/box.png" alt="vector-image"></div>
+
+        <div class="element-two"><img src="assets/images/elements/car.png" alt="vector-image"></div>
+
+        <div class="element-three"><img src="assets/images/elements/chart.png" alt="vector-image"></div>
+
+        <div class="element-four"><img src="assets/images/elements/dollars.png" alt="vector-image"></div>
+
+        <!-- <div class="element-five"><img src="assets/images/elements/laptop.png" alt="vector-image"></div> -->
+
+        <div class="element-six"><img src="assets/images/elements/money-2.png" alt="vector-image"></div>
+
+        <div class="element-seven"><img src="assets/images/elements/person.png" alt="vector-image"></div>
+
+        <div class="element-eight"><img src="assets/images/elements/person-2.png" alt="vector-image"></div>
+
+        <div class="element-nine"><img src="assets/images/elements/power.png" alt="vector-image"></div>
+      </div>
+      <div class="banner-content-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="banner-content">
+                <h1 class="title">Thinking about college?</h1>
+                <p>ColleGPS helps you decide the right college for you based off your personality, academic performance,
+                  residence, or payment plan.</p>
+                <a href="#0" class="cmn-btn">Join now!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner-section end -->
+
+    <!-- lottery-timer-section start -->
+    <!--section class="lottery-timer-section">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-xl-5">
+            <div class="timer-content">
+              <h3 class="title">College Applications Countdown</h3>
+              <p>Don't be too late for the application deadline!</p>
+            </div>
+          </div>
+          <div class="col-xl-5 text-center">
+            <div class="timer-part">
+              <div class="clock"></div>
+            </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="link-area text-center">
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-xl-4">
+            <div class="timer-content">
+              <h3 class="title">FAFSA Apps Countdown</h3>
+              <p>Don't be too late for the application deadline!</p>
+            </div>
+          </div>
+          <div class="col-xl-6 text-center">
+            <div class="timer-part" style="float: right">
+              <div class="fafsaClock"></div>
+            </div>
+          </div>
+          <div class="col-xl-2">
+            <div class="link-area text-center">
+              <a href="https://studentaid.ed.gov/sa/fafsa" class="border-btn">Start FAFSA</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section-->
+    <!-- lottery-timer-section end -->
+
+    <!-- jackpot-section start -->
+
+    <!-- jackpot-section start -->
+    <section class="jackpot-section section-padding second" style="background-color: coral;">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center">
+              <h2 class="section-title">College Calculator</h2>
+              <p>The college calculator will recommend you a college based off of many factors you input.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-7">
+              <div class="section-header text-center">
+                <h3 class="section-title">how it works</h2>
+                  <p></p>
+              </div>
+            </div>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <div class="work-steps-items-part d-flex">
+                <div class="line"><img src="assets/images/elements/line.png" alt="line-image"></div>
+                <div class="work-steps-item">
+                  <div class="work-steps-item-inner">
+                    <div class="icon" style="background-color: white"><img
+                        src="assets/images/svg-icons/format_list_numbered-24px.svg" alt="icon">
+                      <span class="count-num">01</span></div>
+                    <h4 class="title">Academics</h4>
+                    <p>Enter your SAT, ACT, GPA, AP test scores</p>
+                  </div>
+                </div><!-- work-steps-item end -->
+                <div class="work-steps-item">
+                  <div class="work-steps-item-inner">
+                    <div class="icon" style="background-color: white"><img src="assets/images/svg-icons/face-24px.svg"
+                        alt="icon">
+                      <span class="count-num">02</span></div>
+                    <h4 class="title">MBTI</h4>
+                    <p>Enter your MBTI type to factor in personality</p>
+                  </div>
+                </div><!-- work-steps-item end -->
+                <div class="work-steps-item">
+                  <div class="work-steps-item-inner">
+                    <div class="icon" style="background-color: white"><img
+                        src="assets/images/svg-icons/attach_money-24px.svg" alt="icon">
+                      <span class="count-num">03</span></div>
+                    <h4 class="title">Financial</h4>
+                    <p>Enter your payment plan</p>
+                  </div>
+                </div><!-- work-steps-item end -->
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="work-steps-thumb-part">
+                <img src="assets/images/elements/step.png" alt="work-step-image">
+              </div>
+            </div>
+
+          </div>
+          <div class="row justify-content-center"><a href="calculator.html" class="cmn-btn">Start</a></div>
+        </div>
+      </div>
+    </section>
+    <!-- jackpot-section start -->
+
+    <!-- lottery-result-section start -->
+    <!-- <section class="lottery-result-section section-padding has_bg_image" data-background="assets/images/bg-one.jpg">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="section-header text-center">
+              <h2 class="section-title">Latest Lottery Results</h2>
+              <p>Check your lotto results online, find all the lotto winning numbers and see if you won the latest lotto jackpots! </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="lottery-winning-num-part">
+              <div class="lottery-winning-num-table">
+                <h3 class="block-title">lottery winning numbers</h3>
+                <div class="lottery-winning-table">
+                  <table>
+                    <thead>
+                      <tr>
+                        <th class="name">lottery</th>
+                        <th class="date">draw date</th>
+                        <th class="numbers">winning numbers</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><div class="winner-details"><img src="assets/images/flag/1.jpg" alt="flag"><span class="winner-name">cancer charity</span></div></td>
+                        <td><span class="winning-date">30/05/2018</span></td>
+                        <td>
+                          <ul class="number-list">
+                            <li>19</li>
+                            <li>31</li>
+                            <li>21</li>
+                            <li class="active">69</li>
+                            <li>99</li>
+                            <li>77</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><div class="winner-details"><img src="assets/images/flag/2.jpg" alt="flag"><span class="winner-name">US Powerball</span></div></td>
+                        <td><span class="winning-date">30/05/2018</span></td>
+                        <td>
+                          <ul class="number-list">
+                            <li>19</li>
+                            <li>31</li>
+                            <li>21</li>
+                            <li class="active">69</li>
+                            <li>99</li>
+                            <li class="active">77</li>
+                            <li>65</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><div class="winner-details"><img src="assets/images/flag/3.jpg" alt="flag"><span class="winner-name">Mega Millions</span></div></td>
+                        <td><span class="winning-date">30/05/2018</span></td>
+                        <td>
+                          <ul class="number-list">
+                            <li>19</li>
+                            <li>31</li>
+                            <li class="active">21</li>
+                            <li class="active">69</li>
+                            <li>99</li>
+                            <li class="active">77</li>
+                            <li>66</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><div class="winner-details"><img src="assets/images/flag/1.jpg" alt="flag"><span class="winner-name">UK Lotto</span></div></td>
+                        <td><span class="winning-date">30/05/2018</span></td>
+                        <td>
+                          <ul class="number-list">
+                            <li>19</li>
+                            <li>31</li>
+                            <li>21</li>
+                            <li class="active">69</li>
+                            <li>99</li>
+                            <li>77</li>
+                          </ul>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><div class="winner-details"><img src="assets/images/flag/3.jpg" alt="flag"><span class="winner-name">Mega Millions</span></div></td>
+                        <td><span class="winning-date">30/05/2018</span></td>
+                        <td>
+                          <ul class="number-list">
+                            <li>19</li>
+                            <li>31</li>
+                            <li class="active">21</li>
+                            <li class="active">69</li>
+                            <li>99</li>
+                            <li class="active">77</li>
+                            <li>66</li>
+                          </ul>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-lg-4">
+            <div class="winner-part">
+              <h3 class="block-title">our winners</h3>
+              <div class="winner-list">
+                <div class="winner-single">
+                  <div class="winner-header"><img src="assets/images/flag/1.jpg" alt="flag"><span class="name">vola pitmar</span></div>
+                  <p><span class="lottery-name">Cancer Charity</span><span class="date">30/05/2018</span></p>
+                  <h5 class="prize-amount">€500.00</h5>
+                </div>
+                <div class="winner-single">
+                  <div class="winner-header"><img src="assets/images/flag/4.jpg" alt="flag"><span class="name">cay colon</span></div>
+                  <p><span class="lottery-name">Powerball</span><span class="date">30/05/2018</span></p>
+                  <h5 class="prize-amount">€340.00</h5>
+                </div>
+                <div class="winner-single">
+                  <div class="winner-header"><img src="assets/images/flag/5.jpg" alt="flag"><span class="name">irez newtkon</span></div>
+                  <p><span class="lottery-name">Powerball</span><span class="date">30/05/2018</span></p>
+                  <h5 class="prize-amount">€130.00</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 text-center">
+            <a href="#" class="text-btn">see all result</a>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- lottery-result-section end -->
+
+    <!-- choose-us-section start -->
+    <section class="choose-us-section section-padding mbtiNav">
+      <!-- <div class="choose-us-image"><img src="assets/images/elements/mouse.png" alt="image"></div> -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <div class="section-header text-center">
+              <h2 class="section-title">What is an MBTI test?</h2>
+              <p>The college calculator uses your personality type to help tailor which college matches you. Each section represents how your personality guides you through thinking. It is important to know your MBTI type because it will help you to know which subject are you better at.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row mt-mb-15">
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #26418f; border-color: #26418f">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      E
+                    </div>
+                    <h4 class="title" style="color: white">Extraversion</h4>
+                  </div>
+                  <div class="back" style="background-color: #26418f">
+                    <p>This preference is for people who like getting their energy from being involved in events and
+                      participating in many activities.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #75a478; border-color: #75a478">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      S
+                    </div>
+                    <h4 class="title" style="color: white">Sensing</h4>
+                  </div>
+                  <div class="back" style="background-color: #75a478">
+                    <p>This preference is for people who enjoy using their senses, create experiences, and need
+                      something concrete to retain memories.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #ffa726; border-color: #ffa726">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      T
+                    </div>
+                    <h4 class="title" style="color: white">Thinking</h4>
+                  </div>
+                  <div class="back" style="background-color: #ffa726">
+                    <p>This preference is for people who like thinking in a straight-forward and logical way, not
+                      letting their personal emotions have any influence.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #f44336; border-color: #f44336">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      J
+                    </div>
+                    <h4 class="title" style="color: white">Judging</h4>
+                  </div>
+                  <div class="back" style="background-color: #f44336">
+                    <p>This preference is for people who like to use their judging in their outer life, living in a
+                      planned, coordinated, and controllable manner.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color:#26418f; border-color: #26418f">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      I
+                    </div>
+                    <h4 class="title" style="color: white">Introversion</h4>
+                  </div>
+                  <div class="back" style="background-color: #26418f">
+                    <p>This preference is for people who like getting their energy through reflection and activities
+                      done alone or with one or two people.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color:#75a478; border-color: #75a478">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      N
+                    </div>
+                    <h4 class="title" style="color: white">Intuition</h4>
+                  </div>
+                  <div class="back" style="background-color: #75a478">
+                    <p>This preference is for people who like to think through problems and analyze problems.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #ffa726; border-color: #ffa726">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color:white">
+                      F
+                    </div>
+                    <h4 class="title" style="color: white">Feeling</h4>
+                  </div>
+                  <div class="back" style="background-color: #ffa726">
+                    <p>This preference is for people who make decisions based off the opinions of everyone involved and
+                      what maintains harmony.</p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="choose-item text-center" style="background-color: #f44336; border-color: #f44336">
+                  <div class="front">
+                    <div class="icon" style="color: white; border-color: white">
+                      P
+                    </div>
+                    <h4 class="title" style="color: white">Perceiving</h4>
+                  </div>
+                  <div class="back" style="background-color: #f44336">
+                    <p>This preference is for people who prefer to adapt and live flexibly. These people are spontaneous
+                    </p>
+                  </div>
+                </div>
+              </div><!-- choose-item end -->
+            </div>
+          </div>
+          <div class="col-lg-12 text-center" style="padding-top: 3em">
+            <a target="_blank" href="https://www.16personalities.com/free-personality-test" class="cmn-btn">Take free
+              personality
+              test</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- choose-us-section end -->
+
+    <section class="jackpot-section section-padding second">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="section-header text-center">
+              <h2 class="section-title">College Consulting</h2>
+              <p>The best consultant with the best deals!</p>
+            </div>
+          </div>
+        </div>
+          
+          <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <div class="section-header text-center">
+                  <h3 class="section-title">Sign up</h2>
+                    <p></p>
+                </div>
+              </div>
+
+                    
+          <div class="row justify-content-center"><a href="#contactus" class="cmn-btn">Chat with Us</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- active-user-section start -->
+    <section class="active-user-section section-padding section-bg border-top newsNav">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-header text-center">
+              <h2 class="section-title">News</h2>
+              <p>Keep up with what's happening with university news around the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="vmap">
+              <!-- <div class="position-1">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-2">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-3">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-4">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-5">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-6">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-7">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div>
+              <div class="position-8">
+                <span class="dot"></span>
+                <div class="details">
+                  <h6 class="name">Gaylen Hylen</h6>
+                  <p class="area">From: Argentina</p>
+                </div>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="active-item text-center">
+              <img src="assets/images/svg-icons/bar_chart-24px.svg" style="width: 50%; height: auto;" alt="">
+              <p>Keep up with university rankings</p>
+            </div>
+          </div><!-- active-item end -->
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="active-item text-center">
+              <img src="assets/images/svg-icons/search-24px.svg" style="width: 50%; height: auto;" alt="">
+              <p>Discover new opportunities</p>
+            </div>
+          </div><!-- active-item end -->
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="active-item text-center">
+              <img src="assets/images/svg-icons/attach_money-24px.svg" style="width: 50%; height: auto;" alt="">
+              <p>Get financial advice</p>
+            </div>
+          </div><!-- active-item end -->
+          <div class="col-lg-3 col-md-3 col-sm-6 col-6">
+            <div class="active-item text-center">
+              <img src="assets/images/svg-icons/edit-24px.svg" style="width: 50%; height: auto;" alt="">
+              <p>Learn some college tips</p>
+            </div>
+          </div><!-- active-item end -->
+          <div class="col-lg-12 text-center">
+            <a href="news/all.html" class="cmn-btn">read news</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- active-user-section end -->
+
+    <!-- testimonial-section start -->
+    <!-- <section class="testimonial-section section-padding border-top">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-6">
+            <div class="testimonial-content">
+              <h5 class="sub-title">hat they think about us</h5>
+              <h2 class="title">Testimonials</h2>
+              <div class="total-ratings">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <span class="ratings-count-num">3.4M Reviews</span>
+              </div>
+              <p>With over 12 years of experience as the world’s leading online lottery service provider, Sorteo has catered to over a million users. Find out what our members have to say about us! </p>
+              <div class="testimonial-slider-arrows d-flex">
+                <div class="button-next"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                <div class="button-prev"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="testimonial-slider swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-header d-flex">
+                      <div class="client-thumb">
+                        <img src="assets/images/testimonial/1.png" alt="image">
+                      </div>
+                      <div class="client-details">
+                        <h5 class="name">Albert G.</h5>
+                        <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <span>5.00</span>
+                        </div>
+                        <p><span class="place">France</span><span class="date">15th June, 2018</span></p>
+                      </div>
+                    </div>
+                    <div class="testimonial-slide-body">
+                      <p>I've played with Sorteo for several years and really appreciate the site. All of my wins have been credited to my account. Thanks to the entire team at  Sorteo!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-header d-flex">
+                      <div class="client-thumb">
+                        <img src="assets/images/testimonial/2.png" alt="image">
+                      </div>
+                      <div class="client-details">
+                        <h5 class="name">Edward L.</h5>
+                        <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <span>5.00</span>
+                        </div>
+                        <p><span class="place">France</span><span class="date">15th June, 2018</span></p>
+                      </div>
+                    </div>
+                    <div class="testimonial-slide-body">
+                      <p>I've played with Sorteo for several years and really appreciate the site. All of my wins have been credited to my account. Thanks to the entire team at  Sorteo!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-header d-flex">
+                      <div class="client-thumb">
+                        <img src="assets/images/testimonial/1.png" alt="image">
+                      </div>
+                      <div class="client-details">
+                        <h5 class="name">Albert G.</h5>
+                        <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <span>5.00</span>
+                        </div>
+                        <p><span class="place">France</span><span class="date">15th June, 2018</span></p>
+                      </div>
+                    </div>
+                    <div class="testimonial-slide-body">
+                      <p>I've played with Sorteo for several years and really appreciate the site. All of my wins have been credited to my account. Thanks to the entire team at  Sorteo!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-header d-flex">
+                      <div class="client-thumb">
+                        <img src="assets/images/testimonial/2.png" alt="image">
+                      </div>
+                      <div class="client-details">
+                        <h5 class="name">Edward L.</h5>
+                        <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <span>5.00</span>
+                        </div>
+                        <p><span class="place">France</span><span class="date">15th June, 2018</span></p>
+                      </div>
+                    </div>
+                    <div class="testimonial-slide-body">
+                      <p>I've played with Sorteo for several years and really appreciate the site. All of my wins have been credited to my account. Thanks to the entire team at  Sorteo!"</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="testimonial-slide">
+                    <div class="testimonial-slide-header d-flex">
+                      <div class="client-thumb">
+                        <img src="assets/images/testimonial/1.png" alt="image">
+                      </div>
+                      <div class="client-details">
+                        <h5 class="name">Albert G.</h5>
+                        <div class="ratings">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <span>5.00</span>
+                        </div>
+                        <p><span class="place">France</span><span class="date">15th June, 2018</span></p>
+                      </div>
+                    </div>
+                    <div class="testimonial-slide-body">
+                      <p>I've played with Sorteo for several years and really appreciate the site. All of my wins have been credited to my account. Thanks to the entire team at  Sorteo!"</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- testimonial-section end -->
+
+    <!-- team-section start -->
+    <section class="team-section section-padding border-top">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-header text-center">
+              <h2 class="section-title">Meet the Team</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row m-bottom-not-30">
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-single text-center">
+              <div class="thumb">
+                <img src="assets/images/team/teamBill.jpg" alt="team-image">
+                <ul class="team-social-link d-flex justify-content-center">
+                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="content">
+                <h3 class="name">Bill Zheng</h3>
+                <span class="designation">Founder, Chief Executive & Technology Officer</span>
+              </div>
+            </div>
+          </div><!-- team-single end -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-single text-center">
+              <div class="thumb">
+                <img src="assets/images/team/teampicJustin1.png" alt="team-image">
+                <ul class="team-social-link d-flex justify-content-center">
+                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="content">
+                <h3 class="name">Justin Kim</h3>
+                <span class="designation">Chief Operating Officer</span>
+              </div>
+            </div>
+          </div><!-- team-single end -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-single text-center">
+              <div class="thumb">
+                <img src="assets/images/team/1.png" alt="team-image">
+                <ul class="team-social-link d-flex justify-content-center">
+                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="content">
+                <h3 class="name">Sahana Raj</h3>
+                <span class="designation">Chief Financial Officer</span>
+              </div>
+            </div>
+          </div><!-- team-single end -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-single text-center">
+              <div class="thumb">
+                <img src="assets/images/team/1.png" alt="team-image">
+                <ul class="team-social-link d-flex justify-content-center">
+                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="content">
+                <h3 class="name">Christopher Chung</h3>
+                <span class="designation">Chief Marketing Officer</span>
+              </div>
+            </div>
+          </div><!-- team-single end -->
+          <div class="col-lg-3 col-sm-6">
+            <div class="team-single text-center">
+              <div class="thumb">
+                <img src="assets/images/team/1.png" alt="team-image">
+                <ul class="team-social-link d-flex justify-content-center">
+                  <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+              </div>
+              <div class="content">
+                <h3 class="name">Jung Choi</h3>
+                <span class="designation">Chief Technology Officer</span>
+              </div>
+            </div>
+          </div><!-- team-single end -->
+        </div>
+      </div>
+    </section>
+    <!-- team-section end -->
+
+    <!-- contact-section start -->
+    <section class="section-bg contact-section border-top overflow-hidden has_bg_image" id="contactus">
+      <div class=" container">
+      <div class="row justify-content-between">
+        <div class="col-lg-12">
+          <div class="section-header text-center ">
+            <h5 class="top-title">We answer all of your questions</h5>
+            <h2 class="section-title text-uppercase">Contact us</h2>
+            <p>If you have any questions or queries our helpful support team will be more than happy to assist.</p>
+          </div>
+          <div class="contact-form-area">
+            <form class="contact-form">
+              <div class="form-grp d-flex justify-content-center">
+                <input style="width: 50%" type="text" name="contact_name" id="contact_name" placeholder="Full Name">
+              </div>
+              <div class="form-grp d-flex justify-content-center">
+                <input style="width: 50%" type="email" name="contact_email" id="contact_email"
+                  placeholder="Email Address">
+              </div>
+              <div class="form-grp d-flex justify-content-center">
+                <input style="width: 50%" type="tel" name="contact_phone" id="contact_phone" placeholder="Phone No">
+              </div>
+              <div class="form-grp d-flex justify-content-center">
+                <textarea style="width: 50%" name="contact_message" id="contact_message"
+                  placeholder="Message"></textarea>
+              </div>
+              <div class="form-grp d-flex justify-content-center pb-5">
+                <input class="submit-btn" style="width: 50%" type="submit" value="send message">
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+  </div>
+  </section>
+  <!-- contact-section end -->
+
+  <!-- footer-section start -->
+  <footer class="footer-section">
+    <div class="footer-top border-top border-bottom has_bg_image">
+      <div class="footer-top-first">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5 col-sm-4 text-center text-sm-left">
+              <a href="index.html" class="site-logo"><img src="assets/images/newlogo.png" alt="logo"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-top-second">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+              <div class="footer-widget widget-about">
+                <h3 class="widget-title">About colleGPS</h3>
+                <ul class="footer-list-menu">
+                  <li><a href="calculator.html">College Calculator</a></li>
+                  <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">MBTI</a></li>
+                  <li><a href="news/all.html">News</a></li>
+                  <li><a href="contact.html">Contact us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+              <div class="footer-widget widget-subscribe">
+                <h3 class="widget-title">email newsletters</h3>
+                <div class="subscribe-part">
+                  <p>Subscribe now and receive weekly newsletter for latest draw and offer news and much more!</p>
+                  <form class="subscribe-form">
+                    <input type="email" name="subs_email" id="subs_email" placeholder="Email address">
+                    <input type="submit" value="subscribe">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6 col-sm-7">
+            <div class="copy-right-text">
+              <p>© 2019 <a href="#">colleGPS</a> - All Rights Reserved.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-5">
+            <ul class="footer-social-links d-flex justify-content-end">
+              <li><a href="#0"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#0"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#0"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer-section end -->
+
+  </div>
+
+  <!-- scroll-to-top start -->
+  <div class="scroll-to-top">
+    <span class="scroll-icon">
+      <i class="fa fa-angle-up"></i>
+    </span>
+  </div>
+  <!-- scroll-to-top end -->
+
+  <!-- jquery library js file -->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js file -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- flipclock js file -->
+  <script src="assets/js/flipclock.min.js"></script>
+  <!-- countdown js file -->
+  <script src="assets/js/jquery.countdown.min.js"></script>
+  <!-- slick js file -->
+  <script src="assets/js/slick.min.js"></script>
+  <!-- swiper js file -->
+  <script src="assets/js/swiper.min.js"></script>
+  <!-- lightcase js file -->
+  <script src="assets/js/lightcase.js"></script>
+  <!-- wow js file -->
+  <script src="assets/js/wow.min.js"></script>
+  <!-- vamp js files -->
+  <script src="assets/js/jquery.vmap.min.js"></script>
+  <script src="assets/js/jquery.vmap.world.js"></script>
+  <!-- main script js file -->
+  <script src="assets/js/main.js"></script>
+  <!-- our customized js file -->
+  <script src="script.js"></script>
+  <script>
+    var date = new Date(2019, 11, 21);
+    var now = new Date();
+    var diff = (date.getTime() / 1000) - (now.getTime() / 1000);
+
+    var fafsaDueDate = new Date(2020, 5, 30);
+    var fafsaDiff = (fafsaDueDate.getTime() / 1000) - (now.getTime() / 1000);
+
+    var clock = $('.clock').FlipClock(diff, {
+      clockFace: 'DailyCounter',
+      countdown: true
+    });
+
+    var fafsaClock = $('.fafsaClock').FlipClock(fafsaDiff, {
+      clockFace: 'DailyCounter',
+      countdown: true
+    });
+    jQuery(document).ready(function () {
+      jQuery('#vmap').vectorMap({
+        map: 'world_en',
+        color: '#eaedef',
+        backgroundColor: '#f7fcff',
+        hoverOpacity: 0.8,
+        selectedColor: '#eaedef',
+        scaleColors: ['#f7fcff', '#f7fcff'],
+        normalizeFunction: 'polynomial'
+      });
+    });
+    $('#homeNav').click(function () {
+      $('html, body').animate({
+        scrollTop: $(".homeNav").offset().top
+      }, 'slow'
+      );
+    });
+    $('#calcNav').click(function () {
+      $('html, body').animate({
+        scrollTop: $(".second").offset().top
+      }, 'slow'
+      );
+    });
+
+    $('#mbtiNav').click(function () {
+      $('html, body').animate({
+        scrollTop: $(".mbtiNav").offset().top
+      }, 'slow'
+      );
+    });
+
+    $('#newsNav').click(function () {
+      $('html, body').animate({
+        scrollTop: $(".newsNav").offset().top
+      }, 'slow'
+      );
+    });
+  </script>
+</body>
+
+</html>
