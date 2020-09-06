@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>colleGPS</title>
+  <!-- site favicon -->
+  <link rel="shortcut icon" type="image/png" href="../assets/images/colleGPSfavicon.png">
+  <!-- fontawesome css link -->
+  <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+  <!-- bootstrap css link -->
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <!-- animate css link -->
+  <link rel="stylesheet" href="../assets/css/animate.css">
+  <!-- lightcase css link -->
+  <link rel="stylesheet" href="../assets/css/lightcase.css">
+  <!-- slick css link -->
+  <link rel="stylesheet" href="../assets/css/slick.css">
+  <!-- swiper css link -->
+  <link rel="stylesheet" href="../assets/css/swiper.min.css">
+  <!-- flipclock css link -->
+  <link rel="stylesheet" href="../assets/css/flipclock.css">
+  <!-- jqvmap css link -->
+  <link rel="stylesheet" href="../assets/css/jqvmap.min.css">
+  <!-- main style css link -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- responsive css link -->
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!-- preloader start -->
+  <div id="preloader"></div>
+  <!-- preloader end -->
+
+  <!--  header-section start  -->
+  <div class="main-light-version">
+    <!--  header-section start  -->
+    <header class="header-section">
+      <div class="header-top">
+        <div class="container">
+          <nav class="navbar navbar-expand-xl">
+            <a class="site-logo site-title" href="../index.html"><img src="../assets/images/newlogo.png"
+                alt="site-logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="menu-toggle"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav main-menu ml-auto">
+                <li><a href="../index.html">Home</a>
+
+                </li>
+                <li><a href="../calculator.html">college calculator</a>
+                <li class="menu_has_children"><a href="#0">MBTI</a>
+                  <ul class="sub-menu">
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">Free MBTI
+                        Test</a></li>
+                  </ul>
+                </li>
+                <li class="active menu_has_children"><a href="all.html">news</a>
+                  <ul class="sub-menu">
+                    <li><a href="financial.html">Financial</a></li>
+                    <li><a href="rankings.html">University Rankings</a></li>
+                    <li><a class="active" href="college_preparation.html">College Preparation</a></li>
+                    <li><a href="social_life.html">Social Life</a></li>
+                    <li><a href="career_advice.html">Career Advice</a></li>
+                  </ul>
+                </li>
+                <li><a href="../contact.html">contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div><!-- header-bottom end -->
+    </header>
+    <!--  header-section end  -->
+    <!--login registration Modal -->
+    <div class="modal fade login-registration-modal" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="login-registration-area">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="login-tab" data-toggle="tab" href="#login" role="tab"
+                    aria-controls="login" aria-selected="true">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="registration-tab" data-toggle="tab" href="#registration" role="tab"
+                    aria-controls="registration" aria-selected="false">Registration</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                  <form class="login-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="login_email" id="login_email" placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="login_pass" id="login_pass" placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit2" id="registration_submit2" value="login">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="login_remember_pass">
+                        <label for="login_remember_pass">Remember Password</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>You don’t have an account?<a href="#0">Register Now</a></p>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="registration" role="tabpanel" aria-labelledby="registration-tab">
+                  <form class="registration-form cmn-frm">
+                    <div class="frm-group">
+                      <label>Username or Email Address</label>
+                      <input type="email" name="registration_email" id="registration_email"
+                        placeholder="Username or Email Address">
+                      <i class="fa fa-user"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Password</label>
+                      <input type="password" name="registration_pass" id="registration_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <label>Confirm Password</label>
+                      <input type="password" name="registration_re_pass" id="registration_re_pass"
+                        placeholder="Enter Password">
+                      <i class="fa fa-lock"></i>
+                    </div>
+                    <div class="frm-group">
+                      <input type="submit" name="registration_submit" id="registration_submit" value="Registration">
+                    </div>
+                    <div class="frm-group">
+                      <div class="checkbox-area">
+                        <input type="checkbox" id="registration_remember_pass">
+                        <label for="registration_remember_pass">I Agree with the Terms of Use</label>
+                      </div>
+                      <div class="forgot-pass-area">
+                        <a href="#0">Forgot Password?</a>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="or-text">
+                        <span>Or login with</span>
+                      </div>
+                    </div>
+                    <div class="frm-group">
+                      <div class="login-with-area">
+                        <a href="#" class="facebook"><i class="fa fa-facebook-f"></i>facebook</a>
+                        <a href="#" class="google"><i class="fa fa-google-plus"></i>facebook</a>
+                        <a href="#" class="twitter"><i class="fa fa-twitter"></i>facebook</a>
+                      </div>
+                    </div>
+                  </form>
+                  <div class="have-not-account">
+                    <p>Already have an account?<a href="#0">Login</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <article>
+    <br>
+    <br>
+    <h1>How to Balance Your Personal Budget in College</h1><br>
+      <p><strong>Author:</strong> Bill Zheng <br> <strong>Published:</strong> 9:17 PM, August 13, 2020</p>
+
+            <p>
+            <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;For many, it is hard to achieve a balanced budget in college without incurring much debt. Here are ways that you can balance your budget, and these tips can be used for the entirety of your college.
+
+            </p>
+            <br>
+
+            <div class="image-responsive">
+                <img width = "300 px" height = "300px"src="../assets/images/winner/Image2.jpg" alt="college-image">
+                <span>Image source: The Web</span>
+                <br>
+            </div>
+
+          
+            <h3>Why Debt is Detrimental to Your Future?</h3>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;While borrowing student loan sounds nice in the short term, one must know that debt is not the solution if you wanted to reduce it. A debt that you have incurred this year will increase each year by the Annual Percentage Rate (APR), and the compound interest made paying off the debt in the long run extra hard as the debt you owe increases exponentially. Even though you can try to find a good deal to borrow the debt, in most of the cases, it is better to prevent incurring any debt instead of finding ways to pay them off.
+            </p>
+            <br>
+            <h3>Ways to Generate Income:</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;There are two main sources of income that you can generate income in college: being employed or freelance. Make sure your job is part-time, since you should make sure that your job's workload would not exceed your college's workload. An optimal time of part-time work in college would be 12 hours per week according to this <a href="https://www.nitrocollege.com/blog/should-child-have-job-college" style="color: blue">blog post</a>. </p><br>
+            <p style = "font-size: 20; font-style: bold">How Would You Freelance?</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;In terms of freelancing, you should play it to your strength. This depends on your major and your career choice you chose or recommended by our <a href = "../calculator.html" style="color:blue">College Calculator</a>, but here are some examples: if you are a computer science major, you can make some extra cash if one of your friends has a nice internet startup idea, or you can make graphic designs for a friend in an arts project. You could even be more creative, and do what <a href="https://www.cnbc.com/2019/10/09/elon-musk-ran-a-nightclub-out-of-his-college-house-to-pay-for-rent.html#:~:text=Tesla%20and%20SpaceX%20CEO%20Elon,it%20came%20to%20paying%20rent.&text=%E2%80%9CI%20was%20paying%20my%20own,Musk%20said%20in%20the%20book." style="color: blue">Elon Musk did</a>. Compared to a part-time work, which will give you a fixed return, a freelance job has a more uncertain income. If you feel certain that your skills will translate into more income, then you should prioritize in freelancing, if not, then stick with part-time work first.
+            </p>
+            <br>
+            <div class="image-responsive">
+                <img width = "350 px" height = "300px"src="../assets/images/Article2.jpg" alt="Elon Musk">
+                <span style="font-size: 6">Elon Musk famously rented out his college frat house to pay his rent<br> <br>Image source: The Web</span>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <h3>How can You Borrow Less Money</h3>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Do not be afraid of applying financial aid, especially in this period. Most schools are need-blind, which means that they will not take your financial aid status as a part of your application process. However, there are <a href = "https://www.usnews.com/education/articles/2010/03/23/colleges-where-need-for-aid-can-hurt-admission-odds" style="color:blue">schools</a> that are more likely to reject you because of your financial needs since they are not need-blind. Even though you might have a harder time applying to it, it doesn't mean that you are out of your chances! You can still apply to your dream school even if it is not need-blind, but you have to make sure to pick up some backups.</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Besides from asking financial aid or scholarship from the school, you can also apply for them in other organizations. For example, the federal government offers student financial aid in the name of FAFSA, and you can apply to it <a href="https://studentaid.gov/h/apply-for-aid/fafsa" style="color:blue">right here</a>.</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;It is extremely important to remember borrowing less equals paying way less due to the exponential growth of the debt that you will incur, and with the methods above, you can find ways to balance your budget more. Although I cannot boil it down to a specific number, using all of these will bring a positive effect to a certain degree no matter what.</p><br><br><br><br><br><br>
+
+
+        </article>
+
+        <style type="text/css">
+        body { font-family: sans-serif; }
+        h1 {
+        font-family: serif;
+        margin-bottom: 300;
+        }
+        article {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .image-wrapper {
+        width: 600px;
+        float: left;
+        padding-right: 25px;
+        padding-bottom: 10px;
+        }
+        .image-wrapper img {
+        width: 70%;
+        }
+
+        .image-wrapper span {
+        font-family: sans-serif;
+        font-size: 10px;
+        color: #ccc;
+        }
+
+        .article-meta {
+        font-family: sans-serif;
+        color: #aaa;
+        font-size: 12px;
+        }
+        p   {
+        font-size: 14px;
+        }
+
+        </style>
+
+        <section class="section-bg contact-section border-top overflow-hidden has_bg_image" id="contactus">
+        <div class=" container">
+        <div class="row justify-content-between">
+          <div class="col-lg-12">
+            <div class="section-header text-center ">
+              <h5 class="top-title">We answer all of your questions</h5>
+              <h2 class="section-title text-uppercase">Contact us</h2>
+              <p>If you have any questions or queries our helpful support team will be more than happy to assist.</p>
+            </div>
+            <div class="contact-form-area">
+              <form class="contact-form">
+                <div class="form-grp d-flex justify-content-center">
+                  <input style="width: 50%" type="text" name="contact_name" id="contact_name" placeholder="Full Name">
+                </div>
+                <div class="form-grp d-flex justify-content-center">
+                  <input style="width: 50%" type="email" name="contact_email" id="contact_email"
+                    placeholder="Email Address">
+                </div>
+                <div class="form-grp d-flex justify-content-center">
+                  <input style="width: 50%" type="tel" name="contact_phone" id="contact_phone" placeholder="Phone No">
+                </div>
+                <div class="form-grp d-flex justify-content-center">
+                  <textarea style="width: 50%" name="contact_message" id="contact_message"
+                    placeholder="Message"></textarea>
+                </div>
+                <div class="form-grp d-flex justify-content-center pb-5">
+                  <input class="submit-btn" style="width: 50%" type="submit" value="send message">
+                </div>
+              </form>
+            </div>
+          </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- contact-section end -->
+
+    <!-- footer-section start -->
+    <footer class="footer-section">
+      <div class="footer-top border-top border-bottom has_bg_image">
+        <div class="footer-top-first">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 col-md-5 col-sm-4 text-center text-sm-left">
+                <a href="index.html" class="site-logo"><img src="../assets/images/newlogo.png" alt="logo"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-top-second">
+          <div class="container">
+            <div class="row justify-content-between">
+              <div class="col-xl-2 col-lg-3 col-md-3 col-sm-6">
+                <div class="footer-widget widget-about">
+                  <h3 class="widget-title">About colleGPS</h3>
+                  <ul class="footer-list-menu">
+                    <li><a href="calculator.html">College Calculator</a></li>
+                    <li><a target="_blank" href="https://www.16personalities.com/free-personality-test">MBTI</a></li>
+                    <li><a href="news/all.html">News</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <div class="footer-widget widget-subscribe">
+                  <h3 class="widget-title">email newsletters</h3>
+                  <div class="subscribe-part">
+                    <p>Subscribe now and receive weekly newsletter for latest draw and offer news and much more!</p>
+                    <form class="subscribe-form">
+                      <input type="email" name="subs_email" id="subs_email" placeholder="Email address">
+                      <input type="submit" value="subscribe">
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-lg-6 col-sm-7">
+              <div class="copy-right-text">
+                <p>© 2019 <a href="#">colleGPS</a> - All Rights Reserved.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-5">
+              <ul class="footer-social-links d-flex justify-content-end">
+                <li><a href="#0"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#0"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#0"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#0"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-section end -->
+
+
+    <!-- footer-section end -->
+
+    <!-- scroll-to-top start -->
+    <div class="scroll-to-top">
+      <span class="scroll-icon">
+        <i class="fa fa-angle-up"></i>
+      </span>
+    </div>
+    <!-- scroll-to-top end -->
+
+    <!-- jquery library js file -->
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap js file -->
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <!-- flipclock js file -->
+    <script src="../assets/js/flipclock.min.js"></script>
+    <!-- countdown js file -->
+    <script src="../assets/js/jquery.countdown.min.js"></script>
+    <!-- slick js file -->
+    <script src="../assets/js/slick.min.js"></script>
+    <!-- swiper js file -->
+    <script src="../assets/js/swiper.min.js"></script>
+    <!-- lightcase js file -->
+    <script src="../assets/js/lightcase.js"></script>
+    <!-- wow js file -->
+    <script src="../assets/js/wow.min.js"></script>
+    <!-- vamp js files -->
+    <script src="../assets/js/jquery.vmap.min.js"></script>
+    <script src="../assets/js/jquery.vmap.world.js"></script>
+    <!-- main script js file -->
+    <script src="../assets/js/main.js"></script>
+</body>
+
+</html>
